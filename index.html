@@ -1,58 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gantabya</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gantabya</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+  <header>
     <nav>
-        <img src="Cool-cat-Contest--removebg-preview.png" class="logo">
-        <ul>
-        <li><a href="index.html">Home</a></li>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
-           <li><a href="pages/profile.html">Destinations</a></li>
-           <li><a href="pages/login.html">login</a></li>
-        </ul>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/about.html">About</a></li>
+        <li><a href="/pages/contact.html">Contact</a></li>
+        <li><a href="/pages/stories.html">Destinations</a></li>
+        <li><a href="/pages/signup.html">Sign-up</a></li>
+      </ul>
     </nav>
-</header>
-<section class="hero">
-  <div class="container">
-    <h2>  Gantabya </h2>
-    <p>"Traveling is not something you're good at. It's something you do. Like breathing." - Gayle Foreman</p>
-  </div>
-</section>
+  <div class="background"></div>
 
-<marquee behavior='scroll' direction='left' scrollamount='3' onmouseover='this.stop()' onmouseout='this.start()'>❃ Adventure is worthwhile ❃</marquee>
-
-<section>
-<!-- <div class="gallery">
-  <div class="image">
-    <img src="/tilichho/IMG_3388.JPG" alt="Image 1">
-    <div class="overlay">
-      <div class="text"><a href="contact.html">Explore the beauty of tilicho lake</a></div>
+  <section class="intro">
+    <center>
+    <img src="f_images/Pink and Black Grunge Graffiti Creative Studio Logo.png" alt="Travel Image">  <div class="intro-text">
+      <h2>Explore The beauty of Nepal</h2>
+      <p>Travel opens your mind, broadens your horizons, and fills your life with unforgettable experiences. Explore breathtaking landscapes, discover diverse cultures, and create memories that will last a lifetime.</p>
+      <a href="/pages/stories.html" class="btn">Learn More</a>
     </div>
-  </div>
-  <div class="image">
-    <img src="/gallery/2.JPG" alt="Image 2">
-    <div class="overlay">
-      <div class="text"><a href="/pages/mardi.html">Explore the beauty of mardi himal</a></div>
-    </div>
-</div> -->
-<!-- <div class="image">
-  <img src="/langtang/IMG_2801.JPG" alt="Image 3">
-  <div class="overlay">
-    <div class="text"><a href="">Explore the beauty of langtang</a></div>
-  </div>
-</div> -->
-</section>
-    <footer>
-        <div class="footer">
-          <p>&copy; 2024 Gantabya . All rights reserved.</p>
+    </center>
+  </section>
+  </header>
+   <!--Events-->
+   <section class="events" id="events">
+    <div class="container">
+        <div class="title">
+            <h1 class="dark">Trending Destinations</h1>
+            <div class="line"></div>
         </div>
-      </footer>
+        <div class="row">
+            <article class="card col">
+                <img class="card-img" src="/t_destination/IMG_2596.JPG" />
+                <h4 class="dark">Mardi Trek</h4>
+                <p class="font-color">
+                    Mardi trek is without a doubt, one of
+                    the most renowned travel destinations in the Nepal.
+                </p>
+                <a href="/pages/mardi.html" class="btn">All Details</a>
+            </article>
+            <article class="card col">
+                <img src="/t_destination/IMG_2632.JPG" />
+                <h4 class="dark">Langtang trek</h4>
+                <p class="font-color">
+                  It's a popular choice for trekkers seeking a beautiful and culturally rich experience in the Himalayas.
+                  
+                </p>
+                <a href="#" class="btn">All Details</a>
+            </article>
+            <article class="card col">
+                <img src="/t_destination/IMG_3233.JPG" />
+                <h4 class="dark">Tilicho Trek</h4>
+                <p class="font-color">
+                  The trek is known for its stunning scenery,
+                  including views of the Annapurna mountains, glaciers, and high altitude lakes.
+                </p>
+                <a href="#" class="btn">All Details</a>
+            </article>
+        </div>
+    </div>
+</section>
+<!--Events-->
+
+
+  
+
+  <footer>
+    <p>&copy; 2024 Gantabya. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>

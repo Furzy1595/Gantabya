@@ -1,0 +1,230 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/f_images/pexels-jake-young-230679-732895.jpg);
+    background-position: top;
+    background-size: cover;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+header {
+    background-color:transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  header nav { 
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0;  
+    padding: 0; 
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  header nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    font-family: 'libre franklin',sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    transition: color 0.5s;
+    padding-left: 10px;
+  }
+  header nav  a:hover{
+    color: salmon;
+  }
+  #contact {
+    width: 90%;
+  
+  }
+  
+  .contact_us {
+    margin-top: 3rem;
+    display: flex;
+    font-family: 'Libre Franklin',sans-serif;
+  }
+  
+  form {
+    width: 50%;
+  }
+  
+  .cbox {
+    width: 45%;
+    margin-left: 70px;
+    padding: 10px 30px;
+  }
+  
+  .cbox-message {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .cbox-line {
+    width: 30px;
+    height: 3px;
+    background-color:#2c7d5f;
+    margin-bottom: 3em;
+    margin-top: 1em;
+  }
+  
+  .c_boxx a p {
+    color: white;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 1rem;
+    padding: 0px 40px;
+  }
+  
+  .c_boxx a {
+    padding: 1em;
+    margin-bottom: 2em;
+    padding-left: 2em;
+    border: 0.1em solid #2c577d;
+    background-color: #2c577d;
+    color: white;
+    display: flex;
+    border-radius: 2em;
+    align-items: center;
+    border:#2c577d 0.1em solid;
+    font-size: 1em;
+  }
+  
+  .c_boxx a:hover {
+    background-color: white;
+    color: #2c577d;
+    transition: all 0.1s ease;
+  }
+  
+  .c_boxx i {
+    font-size: 38px;
+    margin-right: 10px;
+    /* margin-left: 0.5em; */
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 0px 0px 7px 6px;
+    display: inline-block;
+  }
+  
+  input[type="submit"] {
+    background-color:#2c577d;
+    color: whitesmoke;
+    padding: 12px 50px;
+    border: 2px solid #2c577d;
+    border-radius: 100vmax;
+    cursor: pointer;
+    font-family: var(--ff-montserrat);
+    font-size: var(--fs-links-btns);
+  }
+  
+  input[type="submit"]:hover {
+    background-color: whitesmoke;
+    color: #3f5fb3;
+  }
+  
+  .cform {
+border: 3px solid  #2c7d5f ;
+border-radius: 2px;
+    padding: 25px;
+    border-radius: 0.5rem;
+    margin-left: 40px;
+    background-color: white;
+    margin-bottom: 40px;
+  }
+  
+  .ccol {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .crow-in {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .crow-message {
+    margin: 1rem;
+  }
+  
+  .crow-message div {
+    width: 30px;
+    display: block;
+    height: 1px;
+    border-bottom: 3px solid#2c7d5f;
+  }
+  
+  .ccol-left {
+    margin: 1em;
+  }
+  
+  .ccol {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+  #name {
+    width: 90%;
+    margin: 1em;
+  }
+  
+  #email {
+    width: 90%;
+    margin: 1em;
+  }
+  
+  .crow:after,
+  .crow-s::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .crow-s {
+    margin: 1em;
+    color: #2c577d;
+  }
+.footer {
+    background-color: transparent;
+        color: white;
+        padding: 10px;
+        font-size: 12px;
+        position: relative;
+        font-family: 'Libre Franklin';
+        text-align: center;
+        text-transform: uppercase;
+}
+.social_icons a{
+  justify-content: right;
+  align-items: right;
+  color: rgb(27, 22, 22);
+  padding: 20px;
+  size: 20px;
+  text-decoration: none;
+}
+.color{
+  font-size: 30px;
+  font-family:  'Libre Franklin';
+}

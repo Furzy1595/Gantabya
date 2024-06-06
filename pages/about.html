@@ -3,65 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <style>
-        body {
-            font-family:  sans-serif;
-            background-color: skyblue;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .about-container {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 40px;
-            box-shadow: 0 0 20px rgba(245, 67, 76, 0.2);
-            width: 80%;
-            max-width: 600px;
-            text-align: center;
-        }
-        .about-container h1 {
-            color: black;
-            font-family: "Kaushan Script", cursive;
-            font-size: 32px;
-            margin-bottom: 20px;
-        }
-        .about-container p {
-            line-height: 1.6;
-            color: brown;
-            font-family: "Kaushan Script", cursive;
-            font-size: 17.6px;
-        }
-        .footer {
-            background-color: aqua;
-      color: black;
-      padding: 10px;
-      font-size: 12px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      font-family: "Kaushan Script", cursive;
-      text-align: center;
-      text-transform: uppercase;
-        }
-    </style>
+    <title>About Us - Gantabya</title>
+    <link rel="stylesheet" href="/pages/css/about.css">
+    <script src="https://kit.fontawesome.com/5b72862894.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-
+    <header>
+        <nav>
+            <ul>
+            <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+               <li><a href="/pages/stories.html">Destinations</a></li>
+               <li><a href="/pages/signup.html">Sign-up</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="about-container">
-        <h1>About Gantabya</h1>
-        <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod suscipit eaque autem totam eveniet officiis adipisci, earum sed natus rerum, aut quasi repudiandae ipsam hic! Natus, minus laborum? Reiciendis, placeat!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, maxime laborum ullam velit ipsum voluptate, corrupti explicabo, veniam corporis molestias delectus dicta omnis odio alias? Ipsa atque ad itaque fugit?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi obcaecati veritatis inventore ex tempore voluptate unde libero ullam fugit voluptatem laboriosam possimus rerum voluptatum architecto voluptas, placeat saepe quia cum.
-        </p>
-    </div>
-    <div class="footer">
-        <p>&copy; 2024 Gantabya. All rights reserved.</p>
-    </div>
+        <header class="about-header">
+            <h1>Welcome to Gantabya!</h1>
+        </header>
+        <section class="intro">
+            <h2>Introduction</h2>
+            <p>Hi there!, the travel enthusiast behind Gantabya,
+                 where we share our passion for exploring the world one destination at a time.</p>
+        </section>
+        <section>
+            <h2>Who We Are</h2>
+            <p>At <strong>Gantabya</strong>, we believe that travel is not just about the destination, 
+                but about the journey, the experiences, and the stories that come along the way. Founded by a group of passionate travelers,
+                 Gantabya is dedicated to exploring the world, one destination at a time, and sharing those experiences with you.</p>
+            <p><strong>Travelling</strong> is all about sharing authentic travel experiences, practical tips,
+                 and inspiring stories to help you plan your next adventure. Whether you're a solo traveler, a family on the go,
+                  or someone dreaming of their next getaway, you'll find something here to spark your wanderlust.</p>
+        </section>
+        <section class="unique-points">
+            <h2>What make us different from other</h2>
+            <p>Unlike other travel blog, Gantabya focuses on sustainable travel practices, hidden gems,
+                 and off-the-beaten-path destinations that offer a unique perspective on each place we visit.</p>
+        </section>
+        <section class="image">
+            <h2>Favorite Travel Moments</h2>
+            <!-- <div class="gallery">
+                <img src="/gallery/nep.png" alt="Nepal">
+                <img src="/gallery/na.jpg" alt="Nepal">
+                <img src="/gallery/bhak.jpg" alt="Nepal">
+                <img src="/gallery/pa.jpg" alt="Nepal">
+                <img src="/gallery/sssa.jpg" alt="Nepal">
+               
+            </div> -->
+            <div class="image-grid">
+              <div class="image-container">
+                  <img src="/f_images/pexels-vome-3820222.jpg" alt="Image 1">
+              </div>
+              <div class="image-container">
+                  <img src="/f_images/pexels-prajwalbajracharya-1274922.jpg" alt="Image 2">
+              </div>
+      
+              <div class="image-container">
+                  <img src="/f_images/pexels-dejongwout-750895.jpg" alt="Image 3">
+              </div>
+             
+          </div>
+        </section>
+        <section class="credentials">
+            <h2>Achivement</h2>
+            <p>We have been featured in <em>Travel</em>, collaborated with <em>Duluwa</em>, and received the
+                 <strong>Best Travel Blog Award in 2022</strong>.
+                 These experiences have enriched our journey and allowed me to bring you the best travel insights.</p>
+        </section>
+        <section class="call-to-action">
+            <h2>How can you reach us</h2>
+            <p>Join our community of travel enthusiasts! Subscribe to our newsletter for the latest travel tips, 
+                destination guides, and exclusive content. 
+                Follow us on <a href="#">Instagram</a> and <a href="#">Facebook</a>
+                 for daily updates and behind-the-scenes looks at our adventures.</p>
+        </section>
+        <section class="contact">
+            <h2>How to contact us </h2>
+            <p>Got a question, suggestion, or just want to say hi? Feel free to reach out to us at
+                 <a href="mailto:gantabya@gmail.com">gantabya.com</a>. 
+                we love to hear from you!</p>
+            </section>
+
+        <section >
+            <div id="height">
+                <h1>The Team</h1>
+                <p id="center">Meet Our Team</p>
+              </div>
+              <div id="div1">
+                <h2>Nirmal Achaerya</h2>
+                <p>Founder</p>
+                <p>
+                  Founded Gantabya with his buddies back in 2024, Ex Web Developer,
+                  Currently a full fledged traveller and film maker.
+                </p>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+                <div id="div2">
+              <h2>Sandhya Shrestha</h2>
+                <p>Photographer</p>
+                <p>
+                  The oldest member of Gantabya, one of the best landscape Photographes of
+                  Nepal and super fun gril to travel with.
+                </p>
+              </p>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div id="div3">
+                <h2>Salina Adhikari</h2>
+                <p>PR Manager</p>
+                <p>
+                  Takes care of all the public relations, travel consultatiions and
+                  facilitations regarding travel/ If you call us you'll speak to her
+                  first.
+                </p>
+              </p>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              </div> 
+        </section>
+
+        
+        <div class="footer">
+             <p>&copy; 2024 Gantabya . All rights reserved.</p>
+          </div>
+          
+  
+          
 </body>
 </html>

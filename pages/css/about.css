@@ -1,0 +1,142 @@
+body {
+
+    font-family: Arial, sans-serif;
+    /* background-image: url(/t_destination/IMG_3233.JPG); */
+    background-position: top;
+    background-size: cover;
+    background-color: lightblue;
+    
+    padding: 10px 20px;
+  }
+
+a {
+    color: #333; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+h1, h2, h3 {
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+p {
+    margin: 0.5em 0;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: transparent;
+}
+
+/* Navigation styles */
+header {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  header nav { 
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0;  
+    padding: 0; 
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  header nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    font-family: 'libre franklin',sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    transition: color 0.5s;
+    padding-left: 10px;
+  }
+  header nav  a:hover{
+    color: salmon;
+  }
+/* About container styles */
+.about-container {
+    padding: 2em;
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 800px; /* Set a maximum width for responsiveness */
+}
+
+.about-header {
+    text-align: center;
+}
+
+.intro,
+.unique-points,
+.credentials,
+.call-to-action,
+.contact,
+.team-section {
+    margin-bottom: 2em;
+}
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-gap: 1em;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    opacity: 0.8; 
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.image-container:hover img {
+    opacity: 1;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap; /* Allow team member information to wrap on smaller screens */
+}
+
+#div1,
+#div2,
+#div3 { 
+    flex: 1 1 300px; 
+    margin: 0 1em 1em 0; 
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.team-section h2,
+.team-section p {
+    margin: 0.5em 0;
+}
+
+.team-section i {
+    font-size: 1.2em;
+    margin: 0 0.5em;
+}

@@ -1,0 +1,77 @@
+
+
+
+*{
+  box-sizing: border-box;
+}
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(/f_images/BG2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-color: transparent;
+    padding: 10px 20px;
+  }
+  
+  header {
+    background-color:transparent;
+    padding: 20px;
+    text-align: center;
+  }
+  header nav { 
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0;  
+    padding: 0; 
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  header nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    font-family: 'libre franklin',sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    transition: color 0.5s;
+    padding-left: 10px;
+  }
+  header nav  a:hover{
+    color: salmon;
+  }
+  h1 {
+    padding-top: 20px;
+    font-size: 30px;
+    color: whitesmoke;
+  }
+.mapdiv{
+    width:70%;
+    margin:auto;
+    padding: 20px;
+}
+
+.mapdiv path {
+    fill: #2c577d;
+    stroke: black;
+    stroke-width:1px;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover {
+    fill:whitesmoke;
+}
+  footer {
+    background-color: transparent;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+  }
+  
